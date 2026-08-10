@@ -1,0 +1,225 @@
+﻿<!doctype html>
+<html lang="ja" class="no-is">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="このサイトは、深瀬水月の作品を紹介するサイトです。">
+
+    <title>Fukase's Portfolio Site</title>
+
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="images/favicon.ico">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/cd.css">
+    <link type="text/css" rel="stylesheet" href="css/common.css">
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/npm.js"></script>
+    <script src="js/modernizr.js"></script>
+
+    <style>
+      #visual {
+        width: 100%;
+        height: 480px;
+        position: relative;
+        overflow: hidden;
+      }
+
+      #visual .slide {
+        position: absolute;
+        top: 0; left: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        opacity: 0;
+        transition: opacity 2.5s ease-in-out;
+      }
+
+      #slide1 {
+        opacity: 1; /* 最初はこれだけ表示 */
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <header class="header">
+      <nav class="cd-main-header">
+        <div class="site-id">
+          <a href="./">
+            <h1><img src="images/ロゴ.png" alt="Fukaseのロゴ"></h1>
+          </a>
+        </div>
+        <ul class="cd-header-buttons">
+          <li><a class="cd-nav-trigger" href="#cd-primary-nav"><span></span></a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="cd-main-content">
+
+      <div id="visual">
+        <div class="slide" id="slide1"></div>
+        <div class="slide" id="slide2"></div>
+      </div>
+
+      <article class="container">
+        <h2 class="text-center l main-title">- HOME -</h2>
+
+
+          <section>
+            <div class="row">
+              <div class="col-sm-6">
+                <h3 class="sub-title">はじめまして、深瀬水月と申します。</h3>
+                <p>大学では主にグラフィックデザインを専攻しており、ロゴやパッケージなどのビジュアル表現に取り組んでいます。「人のために、自分のために。」をポリシーに、誰かの願いを解決するデザインについて日々研究しています。</p>
+                <p>本サイトでは、それらの作品群の一部を紹介します。<br>
+                お目通し頂ければ幸いです。 </p>
+              </div>
+              <div class="col-sm-6">
+                <img src="images/ポートフォリオ_本人写真.png">
+              </div>
+            </div>
+
+            <hr id="gorirayamanobananaore">
+
+            <div class="row">
+              <div class="col-sm-6">
+                 <img src="images/ゴリラ山のバナナオ・レ.png">
+                </div>
+                <div class="col-sm-6">
+                  <h3 class="sub-title">ゴリラ山のバナナオ・レ</h3>
+                  <p>宮城県仙台市青葉区作並にある鎌倉山、通称「ゴリラ山」の魅力を伝えるバナナオレのパッケージを制作。</p>
+                  <p>作並温泉にきた観光客をターゲットに、世代問わず親しみやすさを感じられるデザインを意識しています。<br>
+                </div>
+            </div>
+
+             <hr id="koudaisairogo">
+
+            <div class="row">
+              <div class="col-sm-6">
+                <h3 class="sub-title">第50回工大祭 ロゴデザイン</h3>
+                <p>東北工業大学の文化祭である、工大祭の50周年を記念したロゴデザインの制作を行いました。</p>
+                <p>テーマ『パレット』に準えて、来場者の方々を明るく迎えるロゴをイメージし、カラフルに仕上げました。<br>
+                お目通し頂ければ幸いです。 </p>
+              </div>
+              <div class="col-sm-6">
+                <img src="images/工大祭_ロゴ.jpg">
+              </div>
+            </div>
+
+ <hr id="gudakku">
+
+            <div class="row">
+              <div class="col-sm-6">
+                 <img src="images/ぐだっく.png">
+                </div>
+                <div class="col-sm-6">
+                  <h3 class="sub-title">オリジナルキャラクター『ぐだっく』</h3>
+                  <p>ぐだっと怠けたアヒルのキャラクター『ぐだっく』を制作しました。</p>
+                  <p>グッズとしてミニステッカーと缶バッチを制作し、マルシェなどの出展イベントでの販売も行いました。<br>
+                </div>
+            </div>
+
+             <hr id="mapukomi">
+
+          </section>
+
+        </article>
+      </main>
+
+    <footer>
+      <section class="container | text-center ">
+        <div class="col-sm-12">
+          <ul class="footer--nav | list-inline">
+            <li><a href="#gorirayamanobananaore">ゴリラ山のバナナオ・レ</a></li>
+            <li><a href="#koudaisairogo">第50回工大祭 ロゴ</a></li>
+             <li><a href="#gudakku">オリジナルキャラクター『ぐだっく』</a></li>
+            <li><a href="https://www.tohtech.ac.jp/"target=>東北工業大学</a></li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+
+    <div class="cd-overlay"></div>
+
+    <nav class="cd-nav">
+      <ul id="cd-primary-nav" class="global-nav | cd-primary-nav">
+        <li><a href="#gorirayamanobananaore">ゴリラ山のバナナオ・レ</a></li>
+        <li><a href="#koudaisairogo">第50回工大祭 ロゴ</a></li>
+        <li><a href="#gudakku">オリジナルキャラクター『ぐだっく』</a></li>
+        <li><a href="https://www.tohtech.ac.jp/">東北工業大学のサイト</a></li>
+      </ul>
+    </nav>
+      
+
+               <script src="js/jquery-2.1.1.js"></script>
+        <script src="js/jquery.mobile.custom.min.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+            $(document).ready(function() {
+                var $win = $(window),
+                    $main = $('main'),
+                    $nav = $('nav'),
+                    navHeight = $nav.outerHeight(),
+                    navPos = $nav.offset().top,
+                    fixedClass = 'is-fixed';
+
+                $win.on('load scroll', function() {
+                    var value = $(this).scrollTop();
+                    if ( value > navPos ) {
+                        $nav.addClass(fixedClass);
+                        $main.css('margin-top', navHeight);
+                    } else {
+                        $nav.removeClass(fixedClass);
+                        $main.css('margin-top', '0');
+                    }
+                });
+            });
+        </script>
+  </body>
+</html>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const images = [
+    "images/ぐだっく.png",
+    "images/ゴリラ山のバナナオ・レ.png",
+    "images/工大祭_ロゴ.jpg"
+  ];
+
+  let index = 0;
+
+  const slide1 = document.getElementById("slide1");
+  const slide2 = document.getElementById("slide2");
+
+  //  最初の画像は即表示（フェードなし）
+  slide1.style.backgroundImage = `url(${images[0]})`;
+  slide1.style.opacity = 1;
+  slide2.style.opacity = 0;
+
+  function changeImage() {
+    const next = (index + 1) % images.length;
+
+    // 次の画像をスライド2へセット
+    slide2.style.backgroundImage = `url(${images[next]})`;
+
+    // クロスフェード開始
+    slide2.style.opacity = 1;
+    slide1.style.opacity = 0;
+
+    // フェード終了後に入れ替え
+    setTimeout(() => {
+      slide1.style.backgroundImage = slide2.style.backgroundImage;
+      slide1.style.opacity = 1;
+      slide2.style.opacity = 0;
+      index = next;
+    }, 2500); // ← CSSの transition と合わせる
+  }
+
+  // 8秒ごとに切り替わる（お好みで変更可）
+  setInterval(changeImage, 8000);
+});
+</script>
